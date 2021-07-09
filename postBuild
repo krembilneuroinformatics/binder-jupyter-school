@@ -4,8 +4,6 @@ jupyter serverextension enable --py nbgitpuller --sys-prefix
 apt-get update -qq
 apt-get -y --no-install-recommends install libglu1 libgomp1 unzip
 wget https://www.humanconnectome.org/storage/app/media/workbench/workbench-linux64-v1.5.0.zip 
-mkdir /content 
 unzip workbench-linux64-v1.5.0.zip 
-mv workbench /content/ 
 rm workbench-linux64-v1.5.0.zip
-export PATH=/content/workbench/bin_linux64/:$PATH
+export PATH=${HOME}/workbench/bin_linux64/:$PATH
