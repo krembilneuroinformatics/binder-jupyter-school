@@ -8,5 +8,4 @@ mkdir /content
 unzip workbench-linux64-v1.5.0.zip 
 mv workbench /content/ 
 rm workbench-linux64-v1.5.0.zip
-
-ENV PATH        /content/workbench/bin_linux64/:$PATH
+export PATH=/content/workbench/bin_linux64/:$PATH
