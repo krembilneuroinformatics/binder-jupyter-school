@@ -8,3 +8,4 @@ mne
 moviepy
 fooof
 nbgitpuller
+dipy
